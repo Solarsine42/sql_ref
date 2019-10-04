@@ -1,0 +1,11 @@
+CREATE DATABASE demoDB
+
+CREATE TABLE demo_table
+(
+    Name VARCHAR(255),
+    ID INT,
+    ADDRESS CHAR(50),
+    AGE INT NOT NULL,
+    PRIMARY KEY (ID)
+)
+
