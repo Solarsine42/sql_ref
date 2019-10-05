@@ -45,7 +45,8 @@ DESC CUSTOMERS;
 ## How to get everything from a single table
 
 SELECT column1, column2....columnN FROM table_name;<br/>
-e.g. SELECT name FROM customers;
+e.g.  SELECT name FROM customers;<br/>
+or... SELECT * FROM customers;
 
 ## How to get one thing from a single table with a "where" clause
 
