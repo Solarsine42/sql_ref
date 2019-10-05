@@ -48,7 +48,7 @@ SELECT column1, column2....columnN FROM table_name;<br/>
 e.g.  SELECT name FROM customers;<br/>
 or... SELECT * FROM customers;
 
-## How to get one thing from a single table with a "where" clause
+## How to get one thing or one row from a single table with a "where" clause
 
 SELECT column1, column2....columnN FROM table_name WHERE CONDITION;</br>
 e.g.  SELECT age FROM customers WHERE age < 18;<br/>
