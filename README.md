@@ -44,28 +44,26 @@ DESC CUSTOMERS;
 
 ## How to get everything from a single table
 
-SELECT column1, column2....columnN
-FROM   table_name;
+SELECT column1, column2....columnN FROM table_name;
+e.g. SELECT name FROM customers;
 
 ## How to get one thing from a single table with a "where" clause
 
-SELECT column1, column2....columnN
-FROM   table_name
-WHERE  CONDITION;
+SELECT column1, column2....columnN FROM table_name WHERE CONDITION;
+e.g. SELECT age FROM customers WHERE age < 18;
 
 ## How to add something to a table
 
-INSERT INTO table_name( column1, column2....columnN)
-VALUES ( value1, value2....valueN);
+INSERT INTO table_name( column1, column2....columnN) VALUES ( value1, value2....valueN);
+e.g. INSERT INTO customers (name, age, address, salary) VALUES ('Joe', 23, '1234 Main St', 18,000);
 
 ## How to edit something inside of a table
 
-UPDATE table_name
-SET column1 = value1, column2 = value2....columnN=valueN
-[ WHERE  CONDITION ];
+UPDATE table_name SET column1 = value1, column2 = value2....columnN=valueN [ WHERE  CONDITION ];
+e.g. UPDATE customers SET name = 'Johnnie' WHERE id = 3
 
 ## How to remove something from a table
 
-DELETE FROM table_name
-WHERE  {CONDITION};
+DELETE FROM table_name WHERE  {CONDITION};
+e.g. DELETE FROM customers WHERE age < 18
 
