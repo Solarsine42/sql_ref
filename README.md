@@ -49,7 +49,7 @@ e.g. SELECT name FROM customers;
 
 ## How to get one thing from a single table with a "where" clause
 
-SELECT column1, column2....columnN FROM table_name WHERE CONDITION;
+SELECT column1, column2....columnN FROM table_name WHERE CONDITION;</br>
 e.g. SELECT age FROM customers WHERE age < 18;
 
 ## How to add something to a table
